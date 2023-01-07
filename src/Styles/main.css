@@ -1,0 +1,113 @@
+.parent{
+    margin: 10px;
+}
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:Jost;
+    /* background-color: #FFF5EC; */
+}
+
+@font-face{
+    font-family: "Jost";
+    src: url("../Fonts/Jost-VariableFont_wght.ttf");
+    src: url("../Fonts/Jost-Medium.ttf")
+}
+@font-face{
+    font-family: "Jost-medium";
+    src: url("../Fonts/Jost-Medium.ttf")
+}
+/* :root{
+    --maincolor: #dddddd
+    --maincolorlight: lightblue 
+    --secondarycolor: red
+    --textcolor: white
+} */
+header{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+    height:80%;
+    padding:0 2rem;
+    background-color: #FFF5EC;
+    color: black;
+}
+.headerContainer{
+    background-color: #FFF5EC;
+    position: sticky
+}
+img.mainLogo{
+    width: 130px;
+    margin:15px;
+}
+.Login-btn1{
+    background-color: #3DB138;
+    color:#FFFFFF;
+    width: 95px;
+    height: 30px;
+    border: none;
+    border-radius: 15px;
+    margin:20px;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+}
+nav{
+    background: none;
+}
+nav a{
+    margin:0 2rem;
+    color: black;
+    text-decoration: none;
+    font-weight:400;
+    background: none;
+}
+nav a:hover{
+    color:#3DB138;
+}
+
+
+/* header.nav-btn-open{
+    padding:5px;
+    cursor:pointer;
+    background: transparent;
+    border:none;
+    outline:none;
+    color:black;
+    visibility:hidden;
+    opacity:0;
+} */
+/* header.nav-btn-close{
+    padding:5px;
+    cursor:pointer;
+    background: transparent;
+    border:none;
+    outline:none;
+    color:black;
+    visibility:hidden;
+    opacity:0;
+}
+@media only screen and (max-width: 1024px){
+    header.nav-btn-open{
+        visibility: visible;
+        opacity:1
+    }
+    header nav {
+        position:fixed;
+        top:0;
+        left:0;
+        height:100%;
+        width:100%;
+        display: flex;
+        align-items:center;
+        gap:1.5rem;
+        background-color:antiquewhite;
+        transition: 1s;
+        transform:translateY(-100vh);
+    }
+    header.responsive_nav{
+        transform:none;
+    } */
+/* } */
+   
